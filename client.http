@@ -32,6 +32,13 @@ Content-Type: application/json
 Authorization: Bearer {{authToken}}
 
 {
-  "email": "rafa2@exemplo.com",
-  "password": "123"
+  "title": "Qual a melhor linguagem de programação? 13131231231",
+  "content": "Estou em dúvida entre Java e JavaScript, qual é a melhor linguagem de programação?"
 }
+
+###
+# @name fetch_recent_questions
+
+GET {{baseUrl}}/questions HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer {{authToken}}
