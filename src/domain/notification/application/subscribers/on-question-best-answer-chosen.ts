@@ -17,7 +17,7 @@ export class OnQuestionBestAnswerChosen implements EventHandler {
   setupSubscriptions(): void {
     DomainEvents.register(
       this.sendQuestionBestAnswerNotification.bind(this),
-      OnQuestionBestAnswerChosen.name,
+      QuestionBestAnswerChosenEvent.name,
     );
   }
 
