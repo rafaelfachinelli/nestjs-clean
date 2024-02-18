@@ -32,8 +32,8 @@ Content-Type: application/json
 Authorization: Bearer {{authToken}}
 
 {
-  "title": "Qual a melhor linguagem de programação? 13131231231",
-  "content": "Estou em dúvida entre Java e JavaScript, qual é a melhor linguagem de programação?"
+  "title": "Nova pergunta 3",
+  "content": "Conteúdo da pergunta 3"
 }
 
 ###
