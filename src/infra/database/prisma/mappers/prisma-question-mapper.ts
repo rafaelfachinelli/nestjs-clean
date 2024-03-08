@@ -1,5 +1,4 @@
 import { Question as PrismaQuestion, Prisma } from '@prisma/client';
-
 import { UniqueEntityID } from '@/core/entities/unique-entity-id';
 import { Question } from '@/domain/forum/enterprise/entities/question';
 import { Slug } from '@/domain/forum/enterprise/entities/value-objects/slug';
@@ -31,7 +30,7 @@ export class PrismaQuestionMapper {
       content: question.content,
       slug: question.slug.value,
       createdAt: question.createdAt,
-      updatedAt: question.updatedAt?.toISOString(), // Convert to string
+      updatedAt: question.updatedAt,
     };
   }
 }
