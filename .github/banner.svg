@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="128" viewBox="0 0 600 128" role="img" aria-label="NestJS Clean">
+  <title>NestJS Clean</title>
+  <text x="300" y="66" text-anchor="middle" dominant-baseline="central" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="800" letter-spacing="-1">
+    <tspan font-size="60">🏛️</tspan><tspan dx="18" fill="#3498db">NestJS Clean</tspan>
+  </text>
+</svg>
